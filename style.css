@@ -1,0 +1,74 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+#FullNav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow: hidden;
+  transition: 0.7s;
+}
+
+.content {
+  text-align: center;
+  margin-top: 150px;
+	
+}
+
+#FullNav a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 35px;
+  color: aliceblue;
+  display: block;
+	
+}
+
+#FullNav a:hover {
+  color: firebrick;
+}
+
+button{
+	padding: 5px 10px;
+	background-color: rgba(225,225,225,0);
+	border: none;
+	cursor: pointer;
+	font-size: 25px;
+	position: absolute;
+	color: aliceblue;
+}
+
+button:hover{
+	color: firebrick;
+}
+
+.window{
+		text-align: center;
+	font-size: 30px;
+	transition: 0.7s;
+	color: aliceblue;
+}
+.bk1{
+	background-image: url(highway-2025863_1920.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	padding: 20px;
+}
+.bk2{
+	background-image: url(kuala-lumpur-1820944_1920.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 100%;
+	padding: 20px;
+}
+
+.window p{
+	padding: 90px;
+}
